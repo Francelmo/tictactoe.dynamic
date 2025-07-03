@@ -1,5 +1,3 @@
-import { cn } from 'src/lib/utils'
-
 type Player = 'X' | 'O'
 type CellValue = Player | null
 

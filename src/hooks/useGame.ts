@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import { getBestMove } from 'src/lib/ai'
 import { loadScore, saveScore } from 'src/lib/storage'
-// import { playClickSound } from 'src/utils/sound'
 
 type Player = 'X' | 'O'
 type Winner = Player | 'draw'
